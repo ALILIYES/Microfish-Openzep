@@ -41,8 +41,8 @@
 
 ```bash
 # 1. 克隆项目
-git clone https://github.com/your-username/MicroFish-Docker.git
-cd MicroFish-Docker
+git clone https://github.com/ALILIYES/Microfish-Openzep.git
+cd Microfish-Openzep
 
 # 2. 运行安装脚本
 bash setup.sh
@@ -230,7 +230,10 @@ MicroFish-Docker/
 
 ## 致谢
 
-- [OpenZep](https://github.com/N1nEmAn/openzep) — Zep API 兼容的自托管记忆服务
-- [MiroFish](https://github.com/666ghj/MiroFish) — 多智能体群体智能预测引擎
-- [Graphiti](https://github.com/getzep/graphiti) — 时序知识图谱引擎
-- [OASIS](https://github.com/camel-ai/oasis) — 开放智能体社交交互模拟
+本项目整合了以下优秀开源项目，感谢原作者的杰出贡献：
+
+- **[MiroFish](https://github.com/666ghj/MiroFish)** — 多智能体群体智能预测引擎，本项目核心。由 [@666ghj](https://github.com/666ghj) 开发，获盛大集团战略孵化支持。
+- **[OpenZep](https://github.com/N1nEmAn/openzep)** — Zep API 兼容的自托管记忆服务，替代 Zep Cloud 实现本地知识图谱。由 [@N1nEmAn](https://github.com/N1nEmAn) 开发。
+- **[Graphiti](https://github.com/getzep/graphiti)** — 时序知识图谱引擎，为 OpenZep 提供底层图谱能力。
+- **[OASIS](https://github.com/camel-ai/oasis)** — 开放智能体社交交互模拟框架，为 MiroFish 提供多平台模拟能力。
+- **[Neo4j](https://neo4j.com/)** — 图数据库，存储和查询知识图谱数据。
