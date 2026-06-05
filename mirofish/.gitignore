@@ -1,0 +1,6 @@
+# MiroFish 本地 .gitignore —— 项目级 .gitignore 已覆盖大部分规则
+# 此处仅保留 MiroFish 特有的补充项
+backend/uploads/
+backend/logs/
+*.log
+.env

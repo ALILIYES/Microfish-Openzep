@@ -1,0 +1,6 @@
+# 本地测试/运行时数据，不希望进入 git
+openzep/openzep.db
+openzep/openzep.db-shm
+openzep/openzep.db-wal
+mirofish/backend/uploads/
+*.log
