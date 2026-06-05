@@ -1,0 +1,20 @@
+# Docker build ignore
+**/node_modules/
+**/__pycache__/
+**/*.pyc
+**/.venv/
+**/venv/
+**/.env
+**/.env.*
+!**/.env.example
+**/*.db
+**/*.log
+**/uploads/
+**/.git/
+**/.gitignore
+.git/
+.gitignore
+backups/
+README.md
+docs/image-prompts.md
+**/.claude/
